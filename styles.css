@@ -58,3 +58,7 @@ span:nth-child(7) {
   from {transform: rotateX(90deg);}
   to {transform: rotateX(0deg);}
 }
+
+@keyframes flipDown {
+  to {transform: rotateX(-180deg);}
+}
